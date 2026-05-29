@@ -1,0 +1,50 @@
+### Footprint positions - created on 2026-06-05T08:27:23 ###
+### Printed by KiCad version 10.0.3
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val               Package                                                     PosX       PosY       Rot  Side
+A1        RaspberryPi_Pico  RaspberryPi_Pico_SMD_HandSolder                         148.5000  -105.5000  180.0000  bottom
+C1        2u2               C_1206_3216Metric_Pad1.33x1.80mm_HandSolder             137.0000  -129.5000  180.0000  top
+C2        2u2               C_1206_3216Metric_Pad1.33x1.80mm_HandSolder             137.0000  -127.2000  180.0000  top
+C3        100n              C_0805_2012Metric_Pad1.18x1.45mm_HandSolder             149.9000  -126.1000  180.0000  top
+C4        2u2               C_1206_3216Metric_Pad1.33x1.80mm_HandSolder             137.0090  -111.1096  180.0000  top
+C5        2u2               C_1206_3216Metric_Pad1.33x1.80mm_HandSolder             153.0000  -124.6000   90.0000  top
+C6        100n              C_0805_2012Metric_Pad1.18x1.45mm_HandSolder             154.3000   -85.6000    0.0000  top
+C7        100n              C_0805_2012Metric_Pad1.18x1.45mm_HandSolder             154.3000   -98.6000    0.0000  top
+D1        SBRT5A50SA        D_SMA_Handsoldering                                     148.5000  -139.5000  180.0000  top
+D2        SBRT5A50SA        D_SMA_Handsoldering                                     148.5000  -133.5000    0.0000  top
+D3        1N4148WS          D_SOD-323_HandSoldering                                 142.4000  -125.3000  -90.0000  top
+D4        1N4148WS          D_SOD-323_HandSoldering                                 140.5000  -125.3000   90.0000  top
+J1        TRACK             PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal   137.5000  -133.0000    0.0000  top
+J2        TRACK             PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal   156.1000  -133.0000    0.0000  top
+Q1        BC857B            SOT-23_Handsoldering                                    137.2219  -114.0775  180.0000  top
+Q2        BC857B            SOT-23_Handsoldering                                    150.6000  -115.0000  -90.0000  top
+Q3        BC857B            SOT-23_Handsoldering                                    154.1000  -115.0000  -90.0000  top
+Q4        BC857B            SOT-23_Handsoldering                                    157.6000  -115.0000  -90.0000  top
+R1        10k               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             158.1000   -85.6000  180.0000  top
+R2        3R3               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             148.5000  -136.5000    0.0000  top
+R3        10k               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             147.0000  -116.7000    0.0000  top
+R4        100               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             147.0000  -114.8000  180.0000  top
+R5        220               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             144.2000  -119.5000   90.0000  top
+R6        2k2               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             143.3000  -116.7000  180.0000  top
+R7        100               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             143.3000  -122.3000  180.0000  top
+R8        100               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             140.5000  -121.4000   90.0000  top
+R9        4k7               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             140.5000  -117.7000  -90.0000  top
+R10       10k               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             153.6000  -119.2000  180.0000  top
+R11       10k               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             153.6000  -121.1000  180.0000  top
+R12       10k               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             137.4000  -124.2000   90.0000  top
+R13       10k               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             135.5000  -124.2000   90.0000  top
+R14       2k2               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             140.6000   -89.8000  180.0000  top
+R15       2k2               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             140.6000   -91.7000  180.0000  top
+R16       10k               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             144.3000  -125.5000   90.0000  top
+R17       2k2               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             140.6000   -93.6000  180.0000  top
+R18       2k2               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             156.4000  -103.7000  180.0000  top
+R19       2k2               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             156.4000   -90.7000  180.0000  top
+R20       2k2               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             156.4000  -106.3000  180.0000  top
+R21       2k2               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             156.4000   -93.3000  180.0000  top
+U1        LM393             SOIC-8_3.9x4.9mm_P1.27mm                                149.0000  -121.4000  -90.0000  top
+U2        TL431A            SOT-23_Handsoldering                                    136.3000  -119.6000   90.0000  top
+U3        SLHT50H           SOT-23_Handsoldering                                    148.0000  -128.9000    0.0000  top
+U4        HCPL2630SDM       SMDIP-8_W9.53mm                                         148.5000  -105.0000    0.0000  top
+U5        HCPL2630SDM       SMDIP-8_W9.53mm                                         148.5000   -92.0000    0.0000  top
+## End
