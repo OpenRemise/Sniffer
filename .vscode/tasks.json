@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build SnifferDocs",
+      "type": "shell",
+      "isBackground": true,
+      "command": "cmake --build build --parallel --target SnifferDocs"
+    },
+    {
+      "label": "Run Python http.server",
+      "type": "shell",
+      "isBackground": true,
+      "command": "python -m http.server --directory ${workspaceFolder}/build/docs/html --bind 127.0.0.1"
+    },
+  ]
+}

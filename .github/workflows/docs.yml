@@ -1,0 +1,42 @@
+name: docs
+
+on:
+  push:
+    branches: [master]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Install prerequisites
+        run: |
+          sudo apt update -y
+          sudo apt install -y graphviz ninja-build openjdk-21-jdk
+      - name: Build docs
+        run: |
+          cmake --preset "Release"
+          cmake --build build --parallel --target SnifferDocs
+      - name: Setup pages
+        uses: actions/configure-pages@v6
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: build/docs/html
+      - name: Deploy to GitHub pages
+        id: deployment
+        uses: actions/deploy-pages@v5

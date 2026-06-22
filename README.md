@@ -9,17 +9,18 @@
 </picture>
 </a>
 
-The Sniffer is a small add-on board that turns a [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico) into a [DCC](https://en.wikipedia.org/wiki/Digital_Command_Control) (and BiDi) sniffer for use with a logic analyzer.
+The Sniffer is a small add-on board that turns a [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico) into a [DCC](https://en.wikipedia.org/wiki/Digital_Command_Control) (and BiDi) logic analyzer.
 
 ### Features
 - **Requires** [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico) (or [Pico 2](https://www.raspberrypi.com/products/raspberry-pi-pico-2))
 - No external supply
-- Opto-isolation
+- ≥12V track voltage
 - 3.3V logic level outputs for
   - P track
   - N track
   - BiDi
   - BiDi polarity
+- Opto-isolation
 - Supported software
   - [PulseView](https://github.com/sigrokproject/pulseview)
   - [LogicAnalyzer](https://github.com/gusmanb/logicanalyzer)
