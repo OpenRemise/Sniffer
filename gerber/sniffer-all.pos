@@ -1,5 +1,5 @@
-### Footprint positions - created on 2026-06-05T08:27:23 ###
-### Printed by KiCad version 10.0.3
+### Footprint positions - created on 2026-06-23T21:21:51 ###
+### Printed by KiCad version 10.0.4
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref     Val               Package                                                     PosX       PosY       Rot  Side
@@ -44,7 +44,7 @@ R20       2k2               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder         
 R21       2k2               R_0805_2012Metric_Pad1.20x1.40mm_HandSolder             156.4000   -93.3000  180.0000  top
 U1        LM393             SOIC-8_3.9x4.9mm_P1.27mm                                149.0000  -121.4000  -90.0000  top
 U2        TL431A            SOT-23_Handsoldering                                    136.3000  -119.6000   90.0000  top
-U3        SLHT50H           SOT-23_Handsoldering                                    148.0000  -128.9000    0.0000  top
+U3        SLHT50H           SOT-23_Handsoldering                                    149.1000  -128.9000  180.0000  top
 U4        HCPL2630SDM       SMDIP-8_W9.53mm                                         148.5000  -105.0000    0.0000  top
 U5        HCPL2630SDM       SMDIP-8_W9.53mm                                         148.5000   -92.0000    0.0000  top
 ## End
