@@ -6651,7 +6651,7 @@
 			)
 		)
 	)
-	(global_label "BIDI_DATA"
+	(global_label "BIDI_P"
 		(shape input)
 		(at 190.5 123.19 180)
 		(fields_autoplaced yes)
@@ -6663,7 +6663,7 @@
 		)
 		(uuid "89d09b77-15ef-4af5-9ac5-2e116ab59790")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.3828 123.19 0)
+			(at 181.5276 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6723,7 +6723,7 @@
 			)
 		)
 	)
-	(global_label "BIDI_DATA"
+	(global_label "BIDI_P"
 		(shape output)
 		(at 146.05 121.92 0)
 		(fields_autoplaced yes)
@@ -6735,7 +6735,7 @@
 		)
 		(uuid "925b361b-510c-4f30-8474-92c2d1a3098e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.1672 121.92 0)
+			(at 155.0224 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6747,7 +6747,7 @@
 			)
 		)
 	)
-	(global_label "BIDI_POL"
+	(global_label "BIDI_N"
 		(shape output)
 		(at 146.05 139.7 0)
 		(fields_autoplaced yes)
@@ -6759,7 +6759,7 @@
 		)
 		(uuid "977120a4-ae11-4a6c-91c8-713ecfeaa87b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.381 139.7 0)
+			(at 155.0829 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6915,7 +6915,7 @@
 			)
 		)
 	)
-	(global_label "BIDI_POL"
+	(global_label "BIDI_N"
 		(shape input)
 		(at 229.87 138.43 180)
 		(fields_autoplaced yes)
@@ -6927,7 +6927,7 @@
 		)
 		(uuid "d35f10ee-e8c6-4bcb-a160-03bab398ac82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.539 138.43 0)
+			(at 220.8371 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7011,7 +7011,7 @@
 			)
 		)
 	)
-	(global_label "BIDI_POL"
+	(global_label "BIDI_N"
 		(shape input)
 		(at 219.71 123.19 180)
 		(fields_autoplaced yes)
@@ -7023,7 +7023,7 @@
 		)
 		(uuid "e5cfca25-b6d2-4ab4-b930-7fb2de9157c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.379 123.19 0)
+			(at 210.6771 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
