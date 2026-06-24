@@ -142,11 +142,11 @@
 ///   ```
 /// - <b class="tab-title">Windows</b>
 ///   ```sh
-///   mkdir "%USERPROFILE%\.local\share\libsigrokdecode\decoders\dcc"
-///   cd /d "%USERPROFILE%\.local\share\libsigrokdecode\decoders\dcc"
-///   curl -L -o __init__.py https://github.com/ZIMO-Elektronik/libsigrokdecode/raw/dcc/decoders/dcc/__init__.py
-///   curl -L -o lists.py    https://github.com/ZIMO-Elektronik/libsigrokdecode/raw/dcc/decoders/dcc/lists.py
-///   curl -L -o pd.py       https://github.com/ZIMO-Elektronik/libsigrokdecode/raw/dcc/decoders/dcc/pd.py
+///   mkdir "$env:LOCALAPPDATA\libsigrokdecode\decoders\dcc"
+///   cd "$env:LOCALAPPDATA\libsigrokdecode\decoders\dcc"
+///   curl.exe -L -o __init__.py "https://github.com/ZIMO-Elektronik/libsigrokdecode/raw/dcc/decoders/dcc/__init__.py"
+///   curl.exe -L -o lists.py    "https://github.com/ZIMO-Elektronik/libsigrokdecode/raw/dcc/decoders/dcc/lists.py"
+///   curl.exe -L -o pd.py       "https://github.com/ZIMO-Elektronik/libsigrokdecode/raw/dcc/decoders/dcc/pd.py"
 ///   ```
 /// </div>
 // clang-format on
